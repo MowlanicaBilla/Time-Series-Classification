@@ -19,13 +19,16 @@
   Time series classification is a supportive mechanism for time series forecasting. Kasun Bandara et al. propose a mechanism for time series forecasting using Long Short-Term Memory(LSTM) networks. In this case, they have developed different LSTM networks for different clusters of time series and time series forecasting for different clusters have been performed separately. In this case, feature based classification has been used as a supporting mechanism for time series clustering after representing a time series as a feature vector.
 
 There are many other methods in which Time-series Classification can be done.Answer found [here](https://www.quora.com/What-are-some-time-series-classification-methods)
-One such application of Time-Series classification is used above : **Indoor User Movement Prediction** problem. In this challenge, multiple motion sensors are placed in different rooms and the goal is to identify whether an individual has moved across rooms, based on the frequency data captured from these motion sensors.
+
+
+   One such application of Time-Series classification is used above : **Indoor User Movement Prediction** problem. In this challenge, multiple motion sensors are placed in different rooms and the goal is to identify whether an individual has moved across rooms, based on the frequency data captured from these motion sensors.
 
 There are four motion sensors (A1, A2, A3, A4) placed across two rooms. Have a look at the below image which illustrates where the sensors are positioned in each room. The setup in these two rooms was created in 3 different pairs of rooms (group1, group2, group3).
 
+![](https://github.com/MowlanicaBilla/Time-Series-Classification/blob/master/Indoor_user.PNG)
 
 
-A person can move along any of the six pre-defined paths shown in the above image. If a person walks on path 2, 3, 4 or 6, he moves within the room. On the other hand, if a person follows path 1 or path 5, we can say that the person has moved between the rooms.
+ A person can move along any of the six pre-defined paths shown in the above image. If a person walks on path 2, 3, 4 or 6, he moves within the room. On the other hand, if a person follows path 1 or path 5, we can say that the person has moved between the rooms.
 
 The sensor reading can be used to identify the position of a person at a given point in time. As the person moves in the room or across rooms, the reading in the sensor changes. This change can be used to identify the path of the person.
 
